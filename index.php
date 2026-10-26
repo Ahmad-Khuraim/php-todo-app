@@ -31,7 +31,7 @@ $result = $conn->query("SELECT * FROM tasks ORDER BY created_at DESC");
             <?php while ($row = $result->fetch_assoc()): ?>
                 <li class="<?php echo $row['is_completed'] ? 'completed' : ''; ?>">
                     <span class="task-name">
-                     <?php echo htmlspecialchars($row['task']); ?>
+                     <?php echo htmlspecialchars($row['task_name']); ?>
                     </span>
 
                     <span class="task-actions">
