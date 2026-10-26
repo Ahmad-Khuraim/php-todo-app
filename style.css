@@ -1,0 +1,107 @@
+/* 1. */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Arial, sans-serif;
+}
+
+/* 2. */
+body {
+    background: #f0f2f5;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    padding-top: 50px;
+    
+}
+
+/* 3. */
+.container {
+    width: 100%;
+    max-width: 500px;
+    background: #ffffff;
+    padding: 30px;
+    border-radius: 12px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.8);
+    height: fit-content;
+}
+
+/* 4. */
+.task-form {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 25px;
+}
+
+/* 6 */
+.task-form input {
+    flex: 1;
+    padding: 12px 15px;
+    border: 2px solid #e0e0e0;
+    border-radius: 8px;
+    font-size: 15px;
+    outline: none;
+    transition: border-color 0.3s;
+}
+
+/* 7 */
+.task-form input:focus {
+    border-color: #6c5ce7;
+}
+
+.task-form button {
+    padding: 12px 20px;
+    background: #6c5ce7;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.task-form button:hover {
+    background-color: #5a4bd1;
+}
+
+
+/* 8 */
+.task-list {
+    list-style: none;
+}
+
+.task-list li {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 14px;
+    border-bottom: 1px solid #f0f0f0;
+}
+
+/* 9 */
+.task-list li.completed .task-name {
+    text-decoration: line-through;
+    color: #999999;
+}
+
+/* 10  Action buttons */
+.task-action a {
+    text-decoration: none;
+    font-size: 13px;
+    padding: 6px 12px;
+    border-radius: 6px;
+    margin-left: 6px;
+}
+.btn-done {
+    background: #e8f5e9;
+    color: #2e7d32;
+}
+
+.btn-delete {
+    background: #ffebee;
+    color: #c62828;
+}
+.btn-delete:hover {
+    background: #c62828;
+    color: white;
+}
