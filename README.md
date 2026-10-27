@@ -4,11 +4,11 @@ A simple and interactive Todo List web application built using PHP, MySQL, HTML,
 
 This project demonstrates the fundamentals of server-side web development, database operations, CRUD functionality, and frontend interaction.
 
-## 📸 Application Preview
+##  Application Preview
 
 ![Todo App Interface](screenshots/todo-app.png)
 
-## ✨ Features
+##  Features
 
 - **Add Tasks:** Create new tasks and store them in the database.
 - **View Tasks:** Display saved tasks dynamically from MySQL.
@@ -21,7 +21,7 @@ This project demonstrates the fundamentals of server-side web development, datab
 - **Dark UI:** A dark-themed interface styled with CSS.
 - **Dynamic Rendering:** Use PHP to display database records.
 
-## 🛠️ Technologies Used
+##  Technologies Used
 
 | Technology | Purpose |
 |---|---|
@@ -66,7 +66,7 @@ The `tasks` table contains fields used for identifying tasks, storing task names
 
 ![Database Records](screenshots/database-records.png)
 
-## ⚙️ Installation and Setup
+##  Installation and Setup
 
 Follow these steps to run the project locally.
 
@@ -129,7 +129,7 @@ http://localhost/todo-app/index.php
 
 You should now be able to use the Todo List application.
 
-## 🔄 How It Works
+##  How It Works
 
 1. The user opens the main page.
 2. PHP retrieves saved tasks from MySQL.
@@ -139,7 +139,7 @@ You should now be able to use the Todo List application.
 6. `delete_task.php` removes the selected task after confirmation.
 7. The browser returns to the main page to display the updated task list.
 
-## 🔐 Security Considerations
+##  Security Considerations
 
 - Use prepared statements for database queries.
 - Validate user input on the server.
@@ -147,7 +147,7 @@ You should now be able to use the Todo List application.
 - Avoid exposing database passwords and private credentials.
 - Use appropriate access controls before deploying the application publicly.
 
-## 🎯 Learning Outcomes
+##  Learning Outcomes
 
 Through this project, I practised:
 
@@ -160,7 +160,7 @@ Through this project, I practised:
 - Adding frontend validation and confirmation dialogs with JavaScript.
 - Managing project changes with Git and GitHub.
 
-## 🚀 Future Improvements
+##  Future Improvements
 
 - Add user registration and login.
 - Add task editing functionality.
@@ -170,7 +170,7 @@ Through this project, I practised:
 - Add filtering for completed and pending tasks.
 - Deploy the application to a public hosting platform.
 
-## 👨‍💻 Author
+##  Author
 
 **Ahmad Khuraim**
 
@@ -180,4 +180,4 @@ Repository: [PHP Todo App](https://github.com/Ahmad-Khuraim/php-todo-app)
 
 ---
 
-If you find this project useful, consider giving the repository a ⭐ on GitHub.
+If you find this project useful, consider giving the repository a ⭐ on GitHub 😊.
